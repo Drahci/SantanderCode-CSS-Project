@@ -1,0 +1,29 @@
+:root{
+    font-size: 62.5%;
+}
+h1{
+    height: 100xx;
+    font-size: 65px;
+    color: blueviolet;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    text-align: center;
+}
+a{
+    font-size: 3.2rem;
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: darkslateblue;
+}
+h2{
+    font-size: 9.6rem;
+    /* rem vai se mutiplicar pelo valor de :root */
+}
+.novo_texto{
+    font-size: 2.2rem;
+}
