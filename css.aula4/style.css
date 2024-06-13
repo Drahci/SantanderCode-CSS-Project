@@ -10,6 +10,12 @@
     font-weight: weight;
     font-style: normal;
 }
+h1{
+    font-size: 3.5rem;
+    background-color: rgba(223, 224, 223, 0.623);
+    font-weight: 300;
+    color:darkslategrey;
+}
 .bg_fundo{
     height: 50rem;
     width: 100%;
@@ -20,12 +26,6 @@
     background-position: center;
     background-attachment: fixed;
     /* essa propriedade deixa a img fixa na tela, rola jundo do scroll */
-}
-h1{
-    font-size: 3.5rem;
-    background-color: rgba(223, 224, 223, 0.623);
-    font-weight: 300;
-    color:darkslategrey;
 }
 h2{
     font-size: 3.5rem;
