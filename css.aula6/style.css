@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* body {
+    font-size: 1.8rem;
+} */
+.caixa{
+    height: calc(100vh - (7 * 2rem));
+    position: relative;
+
+    display: flex;
+    /* flex-direction:row    ;
+    flex-wrap: wrap; */ 
+    flex-flow: row wrap;
+    /* justify-items: center; */
+    /* align-items: center; */
+    align-content: center;
+    justify-content: center;
+    gap: 2rem 5rem;
+}
+
+.box {
+    min-height: 10rem;
+    min-width: 20rem;
+    padding: 1.5rem;
+    border: 10px solid green;
+    border-radius: 0.4rem;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    display: inline-block;
+    /* flex-basis: calc(33.33% - 5rem); */
+    flex: 1;
+
+}
