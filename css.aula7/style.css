@@ -64,7 +64,7 @@ h1{
     text-align: center;
     /* transition: .2s ease-in-out, background-color 1s ease-in-out; */
     display: block;
-    animation: pulse .2s infinite;
+    animation: pulse 2s infinite;
     animation-direction: alternate;
     transform: scale(1);
 }
@@ -75,10 +75,10 @@ h1{
     }
     50%{
         transform: scale(1.35);
-        opacity: .2;
+        opacity: 3;
     }
     100%{
         transform: scale(1);
-        opacity: .1;
+        opacity: 1;
     }
 }
