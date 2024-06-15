@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+body {
+    font-size: 1.8rem;
+}
+.box{
+    /* height: 10rem;
+    width: 20rem; */
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    background-color: darkblue;
+    color: antiquewhite;
+    border: 0.8rem solid red;
+    
+    flex: 1;
+
+    display: flex;
+    gap: 0 2rem;
+    justify-content: center;
+    align-content: center;
+}
+.box p, button{
+    font-size: 4rem;
+}
+.boxes{
+    height: calc(100vh);
+    position: relative;
+    gap: 2rem 5rem;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
